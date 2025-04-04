@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors Game</h1>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="images/rock.png" alt="">
+        </div>
+        <div class="choice" id="paper">
+            <img src="images/paper.png" alt="">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="images/scissors.png" alt="">
+        </div>
+    </div>
+
+    <div class="score_board">
+        <div class="score">
+            <p id="user_score">0</p>
+            <p><b>You</b></p>
+        </div>
+        <div class="score">
+            <p id="comp_score">0</p>
+            <p><b>Computer</b></p>
+        </div>
+    </div>
+
+
+
+    <div class="msg_container">
+        <p id="msg">Play Your move</p>
+    </div>
+
+    <button id="mode"><i class="fa-solid fa-circle-half-stroke"></i></button>
+    <script src="game.js"></script>
+</body>
+</html>
